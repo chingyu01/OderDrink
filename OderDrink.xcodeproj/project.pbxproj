@@ -7,17 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		04343064200EF1E800C10E87 /* MainOrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04343063200EF1E800C10E87 /* MainOrderViewController.swift */; };
+		04343066200EF68700C10E87 /* DrinkData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04343065200EF68700C10E87 /* DrinkData.swift */; };
+		04343068200EFD4C00C10E87 /* DrinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04343067200EFD4C00C10E87 /* DrinksViewController.swift */; };
+		0434306A200F255A00C10E87 /* CheckOutViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04343069200F255A00C10E87 /* CheckOutViewController.swift */; };
 		04E1B5CA200EED2100F9137B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1B5C9200EED2100F9137B /* AppDelegate.swift */; };
-		04E1B5CC200EED2100F9137B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E1B5CB200EED2100F9137B /* ViewController.swift */; };
 		04E1B5CF200EED2100F9137B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E1B5CD200EED2100F9137B /* Main.storyboard */; };
 		04E1B5D1200EED2100F9137B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04E1B5D0200EED2100F9137B /* Assets.xcassets */; };
 		04E1B5D4200EED2100F9137B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04E1B5D2200EED2100F9137B /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		04343063200EF1E800C10E87 /* MainOrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainOrderViewController.swift; sourceTree = "<group>"; };
+		04343065200EF68700C10E87 /* DrinkData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkData.swift; sourceTree = "<group>"; };
+		04343067200EFD4C00C10E87 /* DrinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinksViewController.swift; sourceTree = "<group>"; };
+		04343069200F255A00C10E87 /* CheckOutViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CheckOutViewController.swift; sourceTree = "<group>"; };
 		04E1B5C6200EED2100F9137B /* OderDrink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OderDrink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		04E1B5C9200EED2100F9137B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		04E1B5CB200EED2100F9137B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		04E1B5CE200EED2100F9137B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		04E1B5D0200EED2100F9137B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04E1B5D3200EED2100F9137B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -55,8 +61,11 @@
 			isa = PBXGroup;
 			children = (
 				04E1B5C9200EED2100F9137B /* AppDelegate.swift */,
-				04E1B5CB200EED2100F9137B /* ViewController.swift */,
 				04E1B5CD200EED2100F9137B /* Main.storyboard */,
+				04343069200F255A00C10E87 /* CheckOutViewController.swift */,
+				04343067200EFD4C00C10E87 /* DrinksViewController.swift */,
+				04343065200EF68700C10E87 /* DrinkData.swift */,
+				04343063200EF1E800C10E87 /* MainOrderViewController.swift */,
 				04E1B5D0200EED2100F9137B /* Assets.xcassets */,
 				04E1B5D2200EED2100F9137B /* LaunchScreen.storyboard */,
 				04E1B5D5200EED2100F9137B /* Info.plist */,
@@ -136,8 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				04E1B5CC200EED2100F9137B /* ViewController.swift in Sources */,
 				04E1B5CA200EED2100F9137B /* AppDelegate.swift in Sources */,
+				0434306A200F255A00C10E87 /* CheckOutViewController.swift in Sources */,
+				04343064200EF1E800C10E87 /* MainOrderViewController.swift in Sources */,
+				04343066200EF68700C10E87 /* DrinkData.swift in Sources */,
+				04343068200EFD4C00C10E87 /* DrinksViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
